@@ -1,0 +1,99 @@
+/* stylelint-disable docusaurus/copyright-header */
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* You can override the default Infima variables here. */
+:root {
+  /* #10bfeb */
+  /* #1073eb */
+  --ifm-color-primary: #10a9eb;
+  --ifm-color-primary-dark: #1073eb;
+  --ifm-color-primary-darker: #1073eb;
+  --ifm-color-primary-darkest: #1073eb;
+  --ifm-color-primary-light: #10a9eb;
+  --ifm-color-primary-lighter: #10a9eb;
+  --ifm-color-primary-lightest: #10a9eb;
+  --ifm-code-font-size: 90%;
+  --ifm-font-family-base: 'Nunito Sans', sans-serif;
+  --ifm-heading-font-weight: 400;
+  --ifm-global-shadow-lw: transparent;
+  --ifm-toc-border-color: transparent;
+}
+
+h1 {
+  font-size: var(--ifm-h1-font-size) !important;
+}
+
+.pagination-nav__label {
+  color: #fff;
+}
+
+.docusaurus-highlight-code-line {
+  background-color: #10a9eb;
+  display: block;
+  margin: 0 calc(-1 * var(--ifm-pre-padding));
+  padding: 0 var(--ifm-pre-padding);
+}
+
+.menu__link {
+  outline: none !important;
+}
+
+.navbar__logo {
+  margin-left: 0.5rem !important;
+}
+
+.asklogo {
+  float: left;
+  margin-right: 15px;
+  height: 70px !important;
+  vertical-align: middle;
+}
+
+.squid-container {
+  clear: both;
+}
+
+.markdown table td,
+.markdown table tr,
+.markdown table th {
+  border-left: 0px;
+  border-right: 0px;
+}
+
+.highlight {
+  color: #10a9eb;
+}
+
+.comparison th,
+.comparison table>tbody>tr>td:first-child {
+  color: #10a9eb;
+}
+
+.schema {
+  padding: 25px;
+  border: 1px solid #10a9eb;
+  /* background-color: #242526; */
+  margin-bottom: 25px;
+}
+
+.brand-asset {
+  height: 90px !important;
+}
+
+.white-container {
+  padding: 15px;
+  background-color: white;
+  display: inline-block;
+  margin-bottom: 5px;
+}
+
+.black-container {
+  padding: 15px;
+  background-color: black;
+  display: inline-block;
+  margin-bottom: 5px;
+}
