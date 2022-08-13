@@ -30,19 +30,19 @@ const sidebars = {
         'intro/ask-vs-ink',
       ],
     },
-    // {
-    //   type: 'category',
-    //   label: 'Getting Started',
-    //   collapsed: false,
-    //   items: [
-    //     'getting-started/setup',
-    //     'getting-started/creating',
-    //     'getting-started/compiling',
-    //     'getting-started/running',
-    //     'getting-started/deploying',
-    //     'getting-started/calling',
-    //   ],
-    // },
+    {
+      type: 'category',
+      label: 'Getting Started',
+      collapsed: false,
+      items: [
+        'getting-started/setup',
+        'getting-started/creating',
+        'getting-started/compiling',
+        'getting-started/running',
+        'getting-started/deploying',
+        'getting-started/calling',
+      ],
+    },
     // {
     //   type: 'category',
     //   label: 'Basics',
