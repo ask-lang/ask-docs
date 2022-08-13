@@ -86,26 +86,3 @@ An example of `askconfig.json` is as follows:
 ```
 
 For the complete example of `flipper` contract project, see the [ask-template](https://github.com/ask-lang/ask-template).
-
-<!-- 
-然后用以下命令来编译：
-
-```sh
-ASK_CONFIG=./askconfig.json yarn asc --config asconfig.json flipper.ts
-```
-
-我们指定`flipper.ts`为入口文件, 并通过`askconfig.json`设置环境变量`ASK_CONFIG`的路径来指定配置，由于`asc`插件目前不支持传递参数，所以我们依靠环境变量来传递参数。
-默认路径为当前目录下的`askconfig.json`，如果不存在则使用默认配置。
-
-## 编译
-
-合约编写完毕后，使用`asc`命令如下编译该合约:
-
-```sh
-yarn asc --config asconfig.json flipper.ts
-```
-
-**注意** 你应当使用当前包项目下的 asc 进行编译，而不是全局`asc`，否则会遇到重复定义的问题。
-
-编译产物分为 2 部分：AssemblyScript 生成的 wasm 等代码，Ask!生成的`metadata.json`。
-AssemblyScript 生成的 wasm 代码路径由`asconfig.json`配置决定，而`metadata.json`由 `askconfig.json`配置决定。 -->
