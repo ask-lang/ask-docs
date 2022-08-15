@@ -7,7 +7,7 @@ slug: /getting-started/running-substrate
 
 ## substrate-contracts-node
 
-The `substrate-contracts-node` is a simple Substrate blockchain which is configured to include the contracts module.
+The [substrate-contracts-node](https://github.com/paritytech/substrate-contracts-node) is a simple Substrate blockchain which is configured to include the contracts module.
 
 It's a comfortable option if you want to get a quickstart.
 
