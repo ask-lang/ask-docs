@@ -77,7 +77,7 @@ An example of `askconfig.json` is as follows:
         "version": "0.1.0",
         "license": "MIT"
     },
-    "metadataOutputPath": "./",
+    "metadataTargetPath": "build/metadata.json",
     "strict": true,
     "event": {
         "maxTopicNum": 2

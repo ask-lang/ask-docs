@@ -26,7 +26,7 @@ Let's take a look at the structure of the metadata.json:
 {
   "source": {
     "hash": "",
-    "language": "Ask! 0.4.0-rc2",
+    "language": "Ask! 0.4.0-rc3",
     "compiler": "asc 0.19.23"
   },
   "contract": {

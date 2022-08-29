@@ -17,10 +17,10 @@ but currently `Ask!` only supports assemblyscript v0.19:
 {
     ...
     "dependencies": {
-        "ask-lang": "^0.4.0-rc2"
+        "ask-lang": "^0.4.0-rc3"
     },
     "devDependencies": {
-        "ask-transform": "^0.4.0-rc2",
+        "ask-transform": "^0.4.0-rc3",
         "assemblyscript": "^0.19"
     },
     ...
