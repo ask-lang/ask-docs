@@ -8,8 +8,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/palenight');
 const config = {
   title: 'Ask! documentation',
   tagline: 'documentation for Ask!',
-  url: 'https://github.com/ask-lang/ask',
-  baseUrl: '/',
+  url: 'https://github.com/ask-lang',
+  baseUrl: '/ask-docs/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/logo.svg',
