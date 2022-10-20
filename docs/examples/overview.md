@@ -9,7 +9,7 @@ There is a `Ask!` project [template](https://github.com/ask-lang/ask-template), 
 yarn build flipper.ts
 ```
 
-As a result you'll get a file `build/flipper.wasm` file and a `metadata.json` file in the `build/` folder of your contract.
+As a result you'll get a file `build/flipper.wasm` file and a `metadata.json` file in the `build/` folder.
 
 In our [examples folder](https://github.com/ask-lang/ask/tree/main/examples) you can find a number of examples written in `Ask!`:
 
